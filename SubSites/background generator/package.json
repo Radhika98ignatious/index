@@ -1,0 +1,14 @@
+{
+  "name": "rsgtc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.19"
+  }
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+ <html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <title>The Portfolio Review Form</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+     <link rel="stylesheet" href="web form.css">
+
+ </head>
+
+ <body>
+
+   <header>
+   <h1> The Portfolio Review </h1>
+   </header>
+
+   <div class="wrapper">
+
+   <div class="top-info">
+   <h2> Signup For Our Newsletter </h2>
+   <p> Get the latest news on how your code is doing in your inbox </p>
+   </div>
+
+   <hr id="topline">
+
+   <form>
+     <fieldset class="top">
+
+       <legend> Contact Information </legend>
+       <div class="box">
+       <label for="name"> Full Name </label>
+       <input type="text" id="name" name="user_name" placeholder="Required " required>
+       </div>
+
+       <div class="box">
+       <label for="email"> Email Address </label>
+       <input type="email" id="email" name="user_email" placeholder="Required " required>
+       </div>
+
+       <div class="box">
+       <label for="number"> Phone Number </label>
+       <input type="tel" id="number" name="user_number" placeholder="+(94) 11 1111 111">
+       </div>
+
+       <div class="box">
+       <label for="address"> Street Address </label>
+       <input type="text" id="address" name="user_address" placeholder="Optional">
+       </div>
+
+       <div class="box">
+       <label for="city"> City </label>
+       <input type="text" id="city" name="user_city" placeholder="Optional">
+       </div>
+
+       <div class="box">
+         <label for="provinces"> Province </label>
+         <select class="provinces" id="provinces" name="provinces">
+          <option value="AL">Select A Province</option>
+        	<option value="AL">Western Province</option>
+        	<option value="AK">Central Province</option>
+        	<option value="AZ">Southern Province</option>
+        	<option value="AR">Uva Province</option>
+        	<option value="CA">Sabaragamuwa Province</option>
+        	<option value="CO">North Western Province</option>
+        	<option value="CT">North Central Province</option>
+        	<option value="DE">Nothern Province</option>
+        	<option value="DC">Eastern Province</option>
+        </select>
+       </div>
+
+       <div class="box">
+       <label for="zip"> Postal Code </label>
+       <input type="text" id="postal" name="user_zip" placeholder="Optional">
+       </div>
+
+     </fieldset>
+
+     <hr id="bottomline">
+
+     <fieldset class="bottom">
+     <legend> Newsletter </legend>
+     <label class="text"> Select the newsletters you would like to recieve </label>
+
+     <div class="box">
+     <input type="checkbox" name="newsletter" id="html">
+     <label for="html"> HTML News </label>
+     </div>
+     <div class="box">
+     <input type="checkbox" name="newsletter" id="css">
+     <label for="css"> CSS News </label>
+     </div>
+     <div class="box">
+     <input type="checkbox" name="newsletter" id="javascript">
+     <label for="javascript"> Javascript News </label>
+     </div>
+
+     <label class="text"> Newletter Format </label>
+
+     <div class="box">
+     <input type="radio" id="htmlformat" name="format">
+     <label for="htmlformat"> HTML </label>
+     </div>
+
+     <div class="box">
+     <input type="radio" id="plainformat" name="format">
+     <label for="plainformat"> Plain Text </label>
+     </div>
+
+     <label class="text" for="comments"> Other topics you'd like to hear about: </label>
+
+     <div class="box flex">
+     <textarea id="comments" name="comments"></textarea>
+     </div>
+
+     <div class="box flex">
+     <button type="submit">Sign Up</button>
+     </div>
+
+     <p id="tag">Copyright The Code Review</p>
+
+   </fieldset>
+   </form>
+  </div>
+ </body>
+
+ </html>
